@@ -2,8 +2,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1653px;
-    height: 1024px;
+    width: 1920px;
+    height: 1056px;
     object-fit: cover;
   }
   .desktop-1-child {
@@ -47,63 +47,62 @@
     width: 205px;
     height: 49px;
   }
-  .username1 {
+  .password,
+  .username {
+    border: 0;
+    font-family: var(--font-league-spartan);
+    font-size: var(--font-size-21xl);
+    background-color: transparent;
+    left: 569px;
+    text-align: left;
+    width: 310px;
+    height: 33px;
+  }
+  .username {
     position: absolute;
     top: 388px;
-    left: 569px;
     color: var(--color-black);
-    text-align: left;
     display: inline-block;
-    width: 310px;
-    height: 33px;
+  }
+  .password {
+    top: 513px;
+    color: #090808;
   }
   .login,
-  .password1,
-  .username1 {
-    border: 0;
-    background-color: transparent;
-    font-size: var(--font-size-21xl);
-    font-family: var(--font-league-spartan);
-  }
-  .password1 {
+  .password,
+  .signup,
+  .welcome-to-tourism {
     position: absolute;
-    top: 513px;
-    left: 569px;
-    color: #090808;
-    text-align: left;
     display: inline-block;
-    width: 310px;
-    height: 33px;
   }
   .login {
     cursor: pointer;
+    border: 0;
     padding: 0;
+    background-color: transparent;
     top: 660px;
     left: 579px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-league-spartan);
     color: var(--color-black);
     text-align: center;
     width: 376px;
     height: 38px;
     mix-blend-mode: normal;
   }
-  .login,
-  .signup1,
-  .welcome-to-tourism1 {
-    position: absolute;
-    display: inline-block;
-  }
-  .signup1 {
+  .signup,
+  .welcome-to-tourism {
     top: 576px;
     left: 859px;
     font-size: 32px;
     width: 137px;
     height: 26px;
   }
-  .welcome-to-tourism1 {
+  .welcome-to-tourism {
     margin: 0;
     top: 85px;
     left: 73px;
-    font-size: var(--font-size-45xl);
+    font-size: 64px;
     font-weight: 400;
     font-family: inherit;
     color: var(--color-white);
